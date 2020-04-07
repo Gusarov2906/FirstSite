@@ -50,6 +50,10 @@ body{min-height:100vh}
   min-height: 96vh;
   width: calc(100vw - 320px);
   padding: 10px;
+  font-family: Roboto-MediumItalic;
+  font-weight: normal;
+  font-size: 18pt;
+
 }
 .sidebar{
   width: 300px;
@@ -70,11 +74,28 @@ body{min-height:100vh}
   font-size: 20pt;
   text-align: left;
 }
-#inner-sidebar-list_in_list_1{
-  font-size: 15pt;
+.header_link{
+  text-decoration: none;
+  color: #00FF40;
 }
-#inner-sidebar-list_in_list_2{
-  font-size: 10pt;
+.sidebar_link{
+   text-decoration: none;
+   color: #F4FA58;
+}
+
+.list_style_1{
+  font-size: 30pt;
+  text-align: left;
+  font-family: Roboto-Black;
+  font-weight: bolder;
+}
+
+.list_style_2{
+  font-size: 25pt;
+  text-align: left;
+  font-family: Roboto-Black;
+  font-weight: normal;
+  list-style-type: none;
 }
 .footer{
   background: #29684B;
@@ -86,4 +107,14 @@ body{min-height:100vh}
   font-weight: bolder;
   font-size: 15pt;
   color: #3B3A3D;
+}
+.style_contacts{
+  font-family: Roboto-MediumItalic;
+  font-size: 25pt;
+  text-align: left;
+  font-weight: bold;
+}
+
+.black_link{
+  color: Black;
 }
